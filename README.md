@@ -3,7 +3,7 @@
 ## First page on github
 
 ### This is just currency conversion, it's part of the "youcode" frontend course.
-[Currencu Converter](https://tymek20.github.io/Currency-converter/)
+[Currency Converter](https://tymek20.github.io/Currency-converter/)
 
 #### Here is the rest of my works:
 [homepage with BEM](https://tymek20.github.io/BEM-refactoring/)
