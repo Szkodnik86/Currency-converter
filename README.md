@@ -8,4 +8,4 @@ https://szkodnik86.github.io/Currency-converter/
 
 
 and of course a picture of me with my son
-![Myfoto](https://github.com/Szkodnik86/converter/blob/main/images/myphoto.jpg?raw=true)
+![Myfoto](https://github.com/Szkodnik86/Currency-converter/blob/main/images/myphoto.jpg?raw=true)
