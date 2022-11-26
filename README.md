@@ -3,7 +3,7 @@
 ## first page on github
 
 ### This is just currency conversion, it's part of the "youcode" frontend course
-https://szkodnik86.github.io/converter/
+https://szkodnik86.github.io/Currency-converter/
 
 
 
