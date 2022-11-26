@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/converter.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+    <title>Kantor</title>
+    <meta property="og:image" content="images/metaLogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="container">
+    <form class="converter js-converter">
+        <fieldset class="converter__fieldset">
+            <legend class="converter__legend">Kantor EUR</legend>
+            <p>
+                <label class="converter__label">Kwota w EUR*
+                    <input class="converter__field js-converter__currency" type="number" placeholder="EUR 1-10000"
+                        min="1" max="10000" step="0.50" required>
+                </label>
+            </p>
+            <p>
+                <label class="converter__label">Kurs EUR/PLN<input class="converter__field js-converter__exchange"
+                        type="number" disabled placeholder="4.6686" value="4.6686"></label>
+            </p>
+        </fieldset>
+        <p>
+            <button class="converter__button">Przelicz!</button>
+        </p>
+        <p class="converter__result">Wartość EURO w PLN
+            <strong class="converter__result--convert js-result">N/a</strong>
+        </p>
+        <p class="converter__text">Pola wymagane oznaczone *</p>
+
+    </form>
+</body>
+
+</html>
