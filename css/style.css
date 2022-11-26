@@ -17,6 +17,5 @@ body {
     padding: 0 20px;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: 50% -9%;
 }
