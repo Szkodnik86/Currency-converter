@@ -3,7 +3,6 @@
     max-width: 200px;
     display: inline-block;
     color: beige;
-
 }
 
 .converter__field {
@@ -26,7 +25,6 @@
     background-color: beige;
     padding: 15px;
     border-radius: 5px;
-
 }
 
 .converter__result {
